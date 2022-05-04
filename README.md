@@ -82,5 +82,35 @@ make install
 Built files are at /home/cogroid/local/libffi/i386
 ```
 
+### Build for armv7-a machine
+
+```
+sudo apt update
+cd ${FFI_DIR}/make/armv7
+make > configure.log&
+```
+
+```
+sudo apt update
+cd ${FFI_DIR}/make/armv7
+make update_makefile
+```
+
+```
+sudo apt update
+cd ${FFI_DIR}/make/armv7
+make build > build.log&
+```
+
+```
+sudo apt update
+cd ${FFI_DIR}/make/armv7
+make install
+```
+
+```
+Built files are at /home/cogroid/local/libffi/armv7
+```
+
 ---
 [Head icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/head)
