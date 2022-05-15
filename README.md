@@ -82,18 +82,18 @@ make install
 Built files are at /home/cogroid/local/libffi/i386
 ```
 
-### Build for armv7-a machine
+### Build for armv7 machine
+
+Set APP_PKG to package name of your android app.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
 
 ```
 sudo apt update
 cd ${FFI_DIR}/make/armv7
 make > configure.log&
-```
-
-```
-sudo apt update
-cd ${FFI_DIR}/make/armv7
-make update_makefile
 ```
 
 ```
